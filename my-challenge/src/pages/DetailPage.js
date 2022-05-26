@@ -33,7 +33,7 @@ function DetailPage(props) {
     }
     return (
         <div className="container">
-            {!detail && <div>Contenido no encontrado</div>}
+            {!detail && <div className='alert alert-danger pt-5'>Contenido no encontrado</div>}
             {detail && <DetailContainer data={detail}/>}
         </div>
     );

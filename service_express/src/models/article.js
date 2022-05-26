@@ -5,6 +5,10 @@ const articleMongoose = mongoose.Schema({
         type: String,
         require: true
     },
+    author: {
+        type: String,
+        require: true 
+    },
     description:{
         type: String,
         require: true 
@@ -16,14 +20,6 @@ const articleMongoose = mongoose.Schema({
     create:{
         type: Date,
         require: true
-    },
-    delete:{
-        type: Date,
-        require: false
-    },
-    update:{
-        type: Date,
-        require: false
     }
     
 });

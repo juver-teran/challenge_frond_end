@@ -56,7 +56,7 @@ function SearchContainer() {
                         role="button"
                         type="submit"
                     >
-                        Primary
+                        Buscar
                     </Button>
                 </div>
             </div>

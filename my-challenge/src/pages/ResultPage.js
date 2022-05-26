@@ -39,8 +39,8 @@ function ResultPage() {
                     <ResultContainer results={results}/>
                 ) :
                 (
-                    <div className="alert alert-danger" role="alert">
-                        <h3>No se encontraron resultados para <strong>{filter}</strong></h3>
+                    <div className="alert alert-danger pt-5" role="alert">
+                        <h4>No se encontraron resultados para <strong>{filter}</strong></h4>
                     </div>
                 )
             }

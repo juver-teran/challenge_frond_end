@@ -1,5 +1,5 @@
 export class Api {
-    #baseUrl = "https://apifake/"
+    #baseUrl = "http://localhost:3001/"
 
     async get(path) {
         try {
