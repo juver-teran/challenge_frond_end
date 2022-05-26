@@ -23,7 +23,7 @@ function SearchContainer() {
     const formValid = (errors) => {
         return !(Object.entries(errors).length > 0)
     }
-
+    //funcion encargada que validar que el input no este vacio
     const handleSubmit = async (e) => {
         e.preventDefault();
 

@@ -11,7 +11,7 @@ function DetailContainer({data}) {
                                 <img src={data.url} width={300} height ={200} className="img-lg rounded" alt="profile icon" />
                             </div>
                             <div className="p-2">
-                                <h6 className="text-info">{data.title}</h6>
+                                <h5 className="font-weight-bold text-primary">{data.title}</h5>
                                 <p className="text-muted">Autor: {data.author}</p>
                                 <p className="font-weight-bold pt-0">{data.description}</p>
                             </div>

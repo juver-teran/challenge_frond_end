@@ -14,13 +14,13 @@ const model = () => {
         search: '',
     }
 }
-
+//servicio de traer todo la informacion  encontrada respecto al al parametro filter
 const getResultsByFilter = async (filter) => {
     const query = `search=${filter}`
     const response = await api.get(`api/items/${query}`)
     return response
 }
-
+//servcio para traer el detalle del la informacion
 const getResultById = async (id) => {
     const response = await api.get(`api/items/${id}`)
     return response
